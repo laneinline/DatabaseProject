@@ -9,7 +9,7 @@
 </head>
 <body>
 	<%
-	
+		//just checkin that everything is fine
 		String url ="jdbc:postgresql://localhost:5432/postgres";
 		String user = "user";
 		String password = "13579";
