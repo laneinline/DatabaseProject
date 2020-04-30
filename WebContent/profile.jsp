@@ -37,8 +37,16 @@ Name : <%= rs.getString("name")%><br>
 ID : <%= rs.getString("ID")%><br>
 Mark : <%= rs.getString("mark")%><br>
 Name : <%= rs.getString("name")%><br>
+
+<%rs.next(); %>
+
+ID : <%= rs.getString("ID")%><br>
+Mark : <%= rs.getString("mark")%><br>
+Name : <%= rs.getString("name")%><br>
 	
-	<%	con.close(); %>
+	<%	
+	st.close();
+	con.close(); %>
 	
 </body>
 </html>
